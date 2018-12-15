@@ -48,6 +48,8 @@
 	<!-- Colorbox -->
 	<link rel="stylesheet" href="/wp-content/themes/bangladesh24/css/colorbox.css">
 
+	
+
 <?php wp_head(); ?>
 </head>	
 <body>

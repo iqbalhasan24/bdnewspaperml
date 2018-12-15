@@ -17,12 +17,12 @@
 						</div><!-- Col end -->
 
 						<div class="col-md-6 pad-r-small">
-							<?php get_top_second_sportligh_post(14, 1, 'hot-post-bottom');  ?>	
+							<?php get_top_second_sportligh_post(7, 1, 'hot-post-bottom');  ?>	
 							
 						</div><!-- Col end -->
 
 						<div class="col-md-6 pad-l-small">
-							<?php get_top_second_sportligh_post(14, 1, 'hot-post-bottom');  ?>	
+							<?php get_top_second_sportligh_post(6, 1, 'hot-post-bottom');  ?>	
 							
 						</div><!-- Col end -->
 					</div>
@@ -36,7 +36,9 @@
 	<section class="block-wrapper">
 		<div class="container">
 			<div class="row">
+
 				<div class="col-lg-8 col-md-12">
+					<!-- +++++++++++++++++++++++ -->
 					<div class="latest-news block color-red">
 						<h3 class="block-title"><span>Latest News</span></h3>
 						<div id="latest-news-slide" class="owl-carousel owl-theme latest-news-slide">
@@ -99,31 +101,37 @@
 							
 						</div><!-- Latest News owl carousel end-->
 					</div><!--- Latest news end -->
+					<!-- +++++++++++++++++++++++ -->
+
+
+
+
 
 					<div class="gap-50"></div>
 
+
 					<!--- Featured Tab startet -->
 					<div class="featured-tab color-blue">
-						<h3 class="block-title"><span>Technology</span></h3>
+						<h3 class="block-title"><span>ফিচার</span></h3>
 						<ul class="nav nav-tabs">
 						  	<li class="nav-item">
 						  		<a class="nav-link animated fadeIn active" href="#tab_a" data-toggle="tab">
 						  			<span class="tab-head">
-										<span class="tab-text-title">Gadgets</span>					
+										<span class="tab-text-title"> তথ্যপ্রযুক্তি</span>					
 									</span>
 						  		</a>
 						  	</li>
 						  	<li class="nav-item">
 							  	<a class="nav-link animated fadeIn" href="#tab_b" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Games</span>					
+										<span class="tab-text-title">লাইফস্টাইল</span>					
 									</span>
 							  	</a>
 							</li>
 						 	<li class="nav-item">
 							  	<a class="nav-link animated fadeIn" href="#tab_c" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Robotics</span>					
+										<span class="tab-text-title">আর্ট এন্ড কালচার</span>					
 									</span>
 							  	</a>
 							</li>
@@ -132,565 +140,46 @@
 						<div class="tab-content">
 					      <div class="tab-pane active animated fadeInRight" id="tab_a">
 					      	<div class="row">
-					      			<?php get_latest_news_list(4, 1);  ?>
-
-						      	<div class="col-lg-6 col-md-6">
-						      		<div class="post-block-style clearfix">
-											<div class="post-thumb">
-												<a href="#">
-													<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget1.jpg" alt="" />
-												</a>
-											</div>
-											<a class="post-cat" href="#">Gadgets</a>
-											<div class="post-content">
-									 			<h2 class="post-title">
-									 				<a href="#">The best MacBook Pro alternatives in 2017 for Apple users</a>
-									 			</h2>
-									 			<div class="post-meta">
-									 				<span class="post-author"><a href="#">John Doe</a></span>
-									 				<span class="post-date">Feb 24, 2017</span>
-									 			</div>
-									 			<p>Lumbersexual meh sustainable Thundercats meditation kogi. Tilde Pitchfork vegan, gentrify minim elit semiotics non messenger bag Austin which roasted ...</p>
-								 			</div><!-- Post content end -->
-										</div><!-- Post Block style end -->
-						      	</div><!-- Col end -->
-
-						      	<div class="col-lg-6 col-md-6">
-						      		<div class="list-post-block">
-											<ul class="list-post">
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget2.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Samsung Gear S3 review: A whimper, when smartwatches need a bang</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 13, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 1 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget3.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Panasonic's new Sumix CH7 an ultra portable filmmaker's dream</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Jan 11, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 2 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget4.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Soaring through Southern Patagonia with the Premium Byrd drone</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 19, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 3 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget5.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Google Assistant starts calling out to all recent Android phones</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 27, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 4 end -->
-											</ul><!-- List post end -->
-										</div><!-- List post block end -->
-						      	</div><!-- List post Col end -->
-
-						      	
+					      			<?php get_post_for_tab_content(85,5); ?>
 					      	</div><!-- Tab pane Row 1 end -->
 					      </div><!-- Tab pane 1 end -->
 
 				        	<div class="tab-pane animated fadeInRight" id="tab_b">
 					        	<div class="row">
-						      	<div class="col-lg-6 col-md-6">
-						      		<div class="post-block-style clearfix">
-											<div class="post-thumb">
-												<a href="#">
-													<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game1.jpg" alt="" />
-												</a>
-											</div>
-											<a class="post-cat" href="#">Games</a>
-											<div class="post-content">
-									 			<h2 class="post-title">
-									 				<a href="#">Historical heroes and robot dinosaurs: New games on our... </a>
-									 			</h2>
-									 			<div class="post-meta">
-									 				<span class="post-author"><a href="#">John Doe</a></span>
-									 				<span class="post-date">Feb 24, 2017</span>
-									 			</div>
-									 			<p>Lumbersexual meh sustainable Thundercats meditation kogi. Tilde Pitchfork vegan, gentrify minim elit semiotics non messenger bag Austin which roasted ...</p>
-								 			</div><!-- Post content end -->
-										</div><!-- Post Block style end -->
-						      	</div><!-- Col end -->
-
-						      	<div class="col-lg-6 col-md-6">
-						      		<div class="list-post-block">
-											<ul class="list-post">
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game2.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Lindie game plonks players in front of huge starship command cent…</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 13, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 1 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game3.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Meet Twitch: Mintendo’s new console mixes handheld and console…</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Jan 11, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 2 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game4.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Super Tario Run isn’t groundbreaking, but it has Mintendo charm</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 19, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 3 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game5.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Oazer and Lacon bring eSport expertise to new PS4 controller…</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 27, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 4 end -->
-											</ul><!-- List post end -->
-										</div><!-- List post block end -->
-						      	</div><!-- List post Col end -->
-					      	</div><!-- Tab pane Row 2 end -->
-				       	</div><!-- Tab pane 2 end -->
+						      		<?php get_post_for_tab_content(86,5); ?>
+					      		</div><!-- Tab pane Row 2 end -->
+				       		</div><!-- Tab pane 2 end -->
 
 				        	<div class="tab-pane animated fadeInLeft" id="tab_c">
 								<div class="row">
-
-						      	<div class="col-lg-6 col-md-6">
-
-						      			<div class="post-block-style clearfix">
-											<div class="post-thumb">
-												<a href="#">
-													<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/robot1.jpg" alt="" />
-												</a>
-											</div>
-											<a class="post-cat" href="#">Robotics</a>
-											<div class="post-content">
-									 			<h2 class="post-title">
-									 				<a href="#">There's no escaping Watsone Dynamics' wheeled jumping robot</a>
-									 			</h2>
-									 			<div class="post-meta">
-									 				<span class="post-author"><a href="#">John Doe</a></span>
-									 				<span class="post-date">Feb 24, 2017</span>
-									 			</div>
-									 			<p>Lumbersexual meh sustainable Thundercats meditation kogi. Tilde Pitchfork vegan, gentrify minim elit semiotics non messenger bag Austin which roasted ...</p>
-								 			</div><!-- Post content end -->
-										</div><!-- Post Block style end -->
-
-						      	</div><!-- Col end -->
-
-						      	<div class="col-lg-6 col-md-6">
-						      		<div class="list-post-block">
-											<ul class="list-post">
-
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/robot2.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Robot Life on Mars! Meet the Machines Exploring the Red Planet To…</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 13, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 1 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/robot3.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Amaging China mech suit aims to assist with Lukushima cleanup</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Jan 11, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 2 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/robot4.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Taddler robot provides insights into early childhood learning</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 19, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 3 end -->
-
-												<li class="clearfix">
-													<div class="post-block-style post-float clearfix">
-														<div class="post-thumb">
-															<a href="#">
-																<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/robot5.jpg" alt="" />
-															</a>
-														</div><!-- Post thumb end -->
-
-														<div class="post-content">
-												 			<h2 class="post-title title-small">
-												 				<a href="#">Robots in hospitals can be quite handy to navigate around the ho…</a>
-												 			</h2>
-												 			<div class="post-meta">
-												 				<span class="post-date">Feb 27, 2017</span>
-												 			</div>
-											 			</div><!-- Post content end -->
-													</div><!-- Post block style end -->
-												</li><!-- Li 4 end -->
-
-											</ul><!-- List post end -->
-										</div><!-- List post block end -->
-
-						      	</div><!-- List post Col end -->
-
-
-					      	</div><!-- Tab pane Row 3 end -->
-				        	</div><!-- Tab pane 3 end -->	
+									<?php get_post_for_tab_content(87,5); ?>
+						      	</div><!-- Tab pane Row 3 end -->
+					        	</div><!-- Tab pane 3 end -->	
 
 						</div><!-- tab content -->
 					</div><!-- Technology Tab end -->
 
-
-
-
-
-
+					<!-- ++++++++++++++++++++++++++++++++++++++ -->
 					<div class="gap-40"></div>
-
 					<div class="block color-orange">
-						<h3 class="block-title"><span>Lifestyle</span></h3>
+						<h3 class="block-title"><span>রঙ্গের দুনিয়া ও খেলা </span></h3>
 
 						<div class="row">
 							<div class="col-lg-6 col-md-6">
-								<div class="post-overaly-style clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel1.jpg" alt="" />
-										</a>
-									</div>
-									
-									<div class="post-content">
-							 			<a class="post-cat" href="#">Travel</a>
-							 			<h2 class="post-title">
-							 				<a href="#">10 Hdrenaline fuelled activities that will chase the post...</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-date">Mar 03, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Overaly Article end -->
-
-								<div class="list-post-block">
-									<ul class="list-post">
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/food1.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Food</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">Tacos ditched the naked chicken chalupa, so here's how to make </a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Mar 13, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 1 end -->
-
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/health1.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Health</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">That wearable on your wrist could soon track your health as well…</a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Jan 11, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 2 end -->
-
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel2.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Travel</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">Early tourists choices to the sea of Maldives in fancy dresses an…</a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Feb 19, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 3 end -->
-
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/architecture2.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Architecture</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">Science meets architecture in robotically coven, solar-active str…</a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Jan 07, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 4 end -->
-
-									</ul><!-- List post end -->
-								</div><!-- List post block end -->
-							</div><!-- Col 1 end -->
+							<?php	 
+								//get_double_cat_post_for_single_section( $cat_id, $post_no, $cat_po_class );
+								get_double_cat_post_for_single_section( 7, 5, '' );
+							?>
+							</div><!-- Col 1 end -->							
 
 							<div class="col-lg-6 col-md-6">
-								<div class="post-overaly-style last clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/architecture3.jpg" alt="" />
-										</a>
-									</div>
-									
-									<div class="post-content">
-							 			<a class="post-cat" href="#">Architecture</a>
-							 			<h2 class="post-title">
-							 				<a href="#">The bedroom keys to Bond villain chic: The best houses of 2017</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-date">Feb 06, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Overaly Article end -->
-
-								<div class="list-post-block">
-									<ul class="list-post">
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/health2.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Health</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">Can't shed those Gym? The problem might be in your health</a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Mar 13, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 1 end -->
-
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/food2.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Food</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">Asia's best restaurant has a frustratingly confusing menu of only…</a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Mar 07, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 2 end -->
-
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/architecture1.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Architecture</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">Science meets architecture in robotically woven, s…</a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Mar 01, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 3 end -->
-
-										<li class="clearfix">
-											<div class="post-block-style post-float clearfix">
-												<div class="post-thumb">
-													<a href="#">
-														<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" />
-													</a>
-													<a class="post-cat" href="#">Travel</a>
-												</div><!-- Post thumb end -->
-
-												<div class="post-content">
-										 			<h2 class="post-title title-small">
-										 				<a href="#">Hynopedia helps female travelers find health …</a>
-										 			</h2>
-										 			<div class="post-meta">
-										 				<span class="post-date">Feb 27, 2017</span>
-										 			</div>
-									 			</div><!-- Post content end -->
-											</div><!-- Post block style end -->
-										</li><!-- Li 4 end -->
-
-									</ul><!-- List post end -->
-								</div><!-- List post block end -->
+								<?php 	
+									get_double_cat_post_for_single_section( 6, 5, 'last' );
+								?>
 							</div><!-- Col 2 end -->
 						</div><!-- Row end -->
 					</div><!-- Block Lifestyle end -->
-
-
+					<!-- ++++++++++++++++++++++++++++++++++++++ -->
 				</div><!-- Content Col end -->
 
 				<div class="col-lg-4 col-md-12">
@@ -710,6 +199,8 @@
 
 						<div class="widget color-default">
 							<h3 class="block-title"><span>Popular News</span></h3>
+							<?php 	// get_populer_post_by_cat( 5);		?>
+
 
 							<div class="post-overaly-style clearfix">
 								<div class="post-thumb">
@@ -819,14 +310,14 @@
 
 						<div class="widget text-center">
 							<img class="banner img-fluid" src="/wp-content/themes/bangladesh24/images/banner-ads/ad-sidebar.png" alt="" />
-						</div><!-- Sidebar Ad end -->
+						</div><!-- Sidebar Ad end -->						
 
 						<div class="widget color-default m-bottom-0">
-							<h3 class="block-title"><span>Trending News</span></h3>
+							<h3 class="block-title"><span>Photo Gallery</span></h3>
 
 							<div id="post-slide" class="owl-carousel owl-theme post-slide">
 								<div class="item">
-									<div class="post-overaly-style text-center clearfix">
+									<div class="post-overaly-style text-center clearfix" data-toggle="modal" data-target="#myModal">
 									   <div class="post-thumb">
 									      <a href="#">
 									         <img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget1.jpg" alt="" />
@@ -842,27 +333,14 @@
 									         <span class="post-date">Feb 06, 2017</span>
 									      </div>
 									   </div><!-- Post content end -->
-									</div><!-- Post Overaly Article 1 end -->
-
-									<div class="post-overaly-style text-center clearfix">
-									   <div class="post-thumb">
-									      <a href="#">
-									         <img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/video/video1.jpg" alt="" />
-									      </a>
-									   </div><!-- Post thumb end -->
-
-									   <div class="post-content">
-									      <a class="post-cat" href="#">Video</a>
-									      <h2 class="post-title">
-									         <a href="#">KJerry's will sell food cream that tastes like you…</a>
-									      </h2>
-									      <div class="post-meta">
-									         <span class="post-date">Jan 09, 2017</span>
-									      </div>
-									   </div><!-- Post content end -->
-									</div><!-- Post Overaly Article 2 end -->
+									</div><!-- Post Overaly Article 1 end -->								
 
 								</div><!-- Item 1 end -->
+
+
+
+
+
 
 								<div class="item">
 
@@ -883,30 +361,14 @@
 									      </div>
 									   </div><!-- Post content end -->
 									</div><!-- Post Overaly Article 3 end -->
-
-									<div class="post-overaly-style text-center clearfix">
-									   <div class="post-thumb">
-									      <a href="#">
-									         <img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/robot1.jpg" alt="" />
-									      </a>
-									   </div><!-- Post thumb end -->
-
-									   <div class="post-content">
-									      <a class="post-cat" href="#">Robotics</a>
-									      <h2 class="post-title">
-									         <a href="#">There's no escaping Watsone Dynamics' wheeled...</a>
-									      </h2>
-									      <div class="post-meta">
-									         <span class="post-date">Jan 15, 2017</span>
-									      </div>
-									   </div><!-- Post content end -->
-									</div><!-- Post Overaly Article 4 end -->
-
 								</div><!-- Item 2 end -->
-
 							</div><!-- Post slide carousel end -->
-
 						</div><!-- Trending news end -->
+						<div class="gap-30"></div>	
+						<div class="widget text-center">
+							<img class="banner img-fluid" src="/wp-content/themes/bangladesh24/images/banner-ads/ad-sidebar.png" alt="" />
+						</div><!-- Sidebar Ad end -->
+
 
 					</div><!-- Sidebar right end -->
 				</div><!-- Sidebar Col end -->
@@ -914,6 +376,29 @@
 			</div><!-- Row end -->
 		</div><!-- Container end -->
 	</section><!-- First block end -->
+
+
+								<!-- +++++++++++++++++++++++++Gallery Modal++++++++++++++++++++++++++++ -->
+											  <div class="modal fade" id="myModal" role="dialog">
+											    <div class="modal-dialog">
+											    
+											      <!-- Modal content-->
+											      <div class="modal-content">											        
+											      <div style="text-align: right;" >
+											      	<span style="padding: 5px;"  class="close" data-dismiss="modal"> &times;</span>
+											         
+											      </div>
+											       
+											        <div class="modal-body">
+											          <p>Some text in the modal.</p>
+											        </div>
+											        
+											      
+											    </div>
+											  </div>
+											  
+											</div>
+								<!-- ++++++++++++++++++++++++++++End Gallery Modal+++++++++++++++++++++++++ -->
 
 	<section class="ad-content-area text-center no-padding">
 		<div class="container">
@@ -928,254 +413,21 @@
 	<section class="block-wrapper">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-lg-4">
-					<div class="block color-dark-blue">
-						<h3 class="block-title"><span>Travel</span></h3>
-						<div class="post-overaly-style clearfix">
-							<div class="post-thumb">
-								<a href="#">
-									<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel1.jpg" alt="" />
-								</a>
-							</div>
-							
-							<div class="post-content">
-					 			<h2 class="post-title">
-					 				<a href="#">10 Hdrenaline fuelled activities that will chase the…</a>
-					 			</h2>
-					 			<div class="post-meta">
-					 				<span class="post-date">Mar 03, 2017</span>
-					 			</div>
-				 			</div><!-- Post content end -->
-						</div><!-- Post Overaly Article end -->
-
-						<div class="list-post-block">
-							<ul class="list-post">
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel2.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">Early tourists choices to the sea of Maldives in fancy dress…</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Mar 13, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 1 end -->
-
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel3.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">This Aeroplane that looks like a butt is the largest aircraf…</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Jan 11, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 2 end -->
-
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel4.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">19 incredible photos from Disney's 'Star Wars' cruise algore</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Feb 19, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 3 end -->
-							</ul><!-- List post end -->
-						</div><!-- List post block end -->
-					</div><!-- Block end -->
+					<?php 
+					//get_single_cat_post_for_single_col( $cat_id, $post_no, $cat_bg_class );
+						get_single_cat_post_for_single_col( 5, 4, 'color-dark-blue' );
+					 ?>					
 				</div><!-- Travel Col end -->
 
 				<div class="col-lg-4">
-					<div class="block color-aqua">
-						<h3 class="block-title"><span>Gadgets</span></h3>
-						<div class="post-overaly-style clearfix">
-							<div class="post-thumb">
-								<a href="#">
-									<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget1.jpg" alt="" />
-								</a>
-							</div>
-							
-							<div class="post-content">
-					 			<h2 class="post-title">
-					 				<a href="#">The best MacBook Pro alternatives in 2017 for Apple users</a>
-					 			</h2>
-					 			<div class="post-meta">
-					 				<span class="post-date">Mar 03, 2017</span>
-					 			</div>
-				 			</div><!-- Post content end -->
-						</div><!-- Post Overaly Article end -->
-
-						<div class="list-post-block">
-							<ul class="list-post">
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget2.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">Samsung Gear S3 review: A whimper, when smartwatches need...</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Jan 13, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 1 end -->
-
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget3.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">Panasonic's new Sumix CH7 an ultra portable filmmaker's drea…</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Mar 11, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 2 end -->
-
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/gadget4.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">Soaring through Southern Patagonia with the Premium Byrd dro…</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Feb 19, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 3 end -->
-							</ul><!-- List post end -->
-						</div><!-- List post block end -->
-					</div><!-- Block end -->
+					<?php  get_single_cat_post_for_single_col( 15, 4, 'color-aqua' ); ?>
+					
 				</div><!-- Gadget Col end -->
 
 				<div class="col-lg-4">
-					<div class="block color-violet">
-						<h3 class="block-title"><span>Health</span></h3>
-						<div class="post-overaly-style clearfix">
-							<div class="post-thumb">
-								<a href="#">
-									<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/health1.jpg" alt="" />
-								</a>
-							</div>
-							
-							<div class="post-content">
-					 			<h2 class="post-title">
-					 				<a href="#">That wearable on your wrist could soon track your health as …</a>
-					 			</h2>
-					 			<div class="post-meta">
-					 				<span class="post-date">Mar 03, 2017</span>
-					 			</div>
-				 			</div><!-- Post content end -->
-						</div><!-- Post Overaly Article end -->
-
-						<div class="list-post-block">
-							<ul class="list-post">
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/health2.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">Can't shed those Gym? The problem might be in your health</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Mar 13, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 1 end -->
-
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/health3.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">Deleting fears from the brain means you might never need to …</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Jan 11, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 2 end -->
-
-								<li class="clearfix">
-									<div class="post-block-style post-float clearfix">
-										<div class="post-thumb">
-											<a href="#">
-												<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/health4.jpg" alt="" />
-											</a>
-										</div><!-- Post thumb end -->
-
-										<div class="post-content">
-								 			<h2 class="post-title title-small">
-								 				<a href="#">Smart packs parking sensor tech and beeps when collisions</a>
-								 			</h2>
-								 			<div class="post-meta">
-								 				<span class="post-date">Feb 19, 2017</span>
-								 			</div>
-							 			</div><!-- Post content end -->
-									</div><!-- Post block style end -->
-								</li><!-- Li 3 end -->
-							</ul><!-- List post end -->
-						</div><!-- List post block end -->
-					</div><!-- Block end -->
+					<?php  get_single_cat_post_for_single_col( 88, 4, 'color-violet' ); ?>
+					
 				</div><!-- Health Col end -->
 
 			</div><!-- Row end -->
@@ -1288,182 +540,72 @@
 	</section><!-- Video block end -->
 
 
+
+
+	<!-- <a href="#" class="video" data-toggle="modal" data-target="#videoModal<?php //echo $id; ?>" data-video="<?php //echo $video; ?>">
+        <img class="header-video-icon" src="https://www.conversica.com/downloads/2018/08/youtube-256.png" style="width: 60px;">
+    </a> -->
+
+	<!--Modal-->
+	     <div class="modal fade" id="videoModal<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+	            <div class="modal-dialog modal-lg">
+	                <div class="modal-content">
+	                    <div class="modal-body">
+	                      <div class="modal-header">
+	                            <button type="button" class="close" data-dismiss="modal">&times;</button> <br/>
+	                      </div>
+	                        <iframe width="100%" height="550" src="" frameborder="0" allowfullscreen></iframe>
+
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	<!--End modal-->
+
+
 	<section class="block-wrapper p-bottom-0">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
 					<div class="more-news block color-default">
-						<h3 class="block-title"><span>More News</span></h3>
-
+						<h3 class="block-title"><span>অন্যান্য</span></h3>
 						<div id="more-news-slide" class="owl-carousel owl-theme more-news-slide">
+
+
 							<div class="item">
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/video/video1.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Video</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">KJerry's will sell food cream that tastes like your favorite video</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Mar 29, 2017</span>
-							 			</div>
-							 			<p>Lumbersexual meh sustainable Thundercats meditation kogi. Tilde Pitchfork vegan, gentrify minim elit semiotics non messenger bag Austin which roasted ...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 1 end -->
+									<?php 
+										//get_more_post_by_cat( $cat_id, $post_no); 
+										get_more_post_by_cat( 16, 4); 
 
-								<div class="gap-30"></div>
-
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game5.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Games</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">Oazer and Lacon bring eSport expertise to new PS4 controllers</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Mar 27, 2017</span>
-							 			</div>
-							 			<p>Pityful a rethoric question ran over her cheek When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of he...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 2 end -->
-
-								<div class="gap-30"></div>
-
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game4.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Games</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">Super Tario Run isn’t groundbreaking, but it has Mintendo charm</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 24, 2017</span>
-							 			</div>
-							 			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and ...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 3 end -->
-
-								<div class="gap-30"></div>
-
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/robot5.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Robotics</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">Robots in hospitals can be quite handy to navigate around the ho…</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 24, 2017</span>
-							 			</div>
-							 			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and ...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 4 end -->
+									?>
 							</div><!-- Item 1 end -->
+							<div class="item">
+									<?php get_more_post_by_cat( 128, 4); ?>
+							</div><!-- Item 2 end -->
 
 							<div class="item">
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/video/video2.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Video</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">TG G6 will have dual 13-megapixel cameras on the back</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Mar 29, 2017</span>
-							 			</div>
-							 			<p>Lumbersexual meh sustainable Thundercats meditation kogi. Tilde Pitchfork vegan, gentrify minim elit semiotics non messenger bag Austin which roasted ...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 5 end -->
+									<?php get_more_post_by_cat( 127, 4); ?>
+							</div><!-- Item 3 end -->
 
-								<div class="gap-30"></div>
-
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/video/video3.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Video</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">Breeze through 17 locations in Europe in this breathtaking v…</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Mar 31, 2017</span>
-							 			</div>
-							 			<p>Pityful a rethoric question ran over her cheek When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of he...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 6 end -->
-
-								<div class="gap-30"></div>
-
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/architecture1.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Architecture</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">Science meets architecture in robotically woven, solar...</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Mar 23, 2017</span>
-							 			</div>
-							 			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and ...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 7 end -->
-
-								<div class="gap-30"></div>
-
-								<div class="post-block-style post-float-half clearfix">
-									<div class="post-thumb">
-										<a href="#">
-											<img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/tech/game1.jpg" alt="" />
-										</a>
-									</div>
-									<a class="post-cat" href="#">Robotics</a>
-									<div class="post-content">
-							 			<h2 class="post-title">
-							 				<a href="#">Historical heroes and robot dinosaurs: New games on our…</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 24, 2017</span>
-							 			</div>
-							 			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and ...</p>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style 8 end -->
+							<div class="item">
+									<?php get_more_post_by_cat( 129, 4); ?>
 							</div><!-- Item 2 end -->
-							
+
+							<div class="item">
+									<?php get_more_post_by_cat( 90, 4); ?>
+							</div><!-- Item 3 end -->
+							<div class="item">
+									<?php get_more_post_by_cat( 94, 4); ?>
+							</div><!-- Item 2 end -->
+
+							<div class="item">
+									<?php get_more_post_by_cat( 93, 4); ?>
+							</div><!-- Item 3 end -->
+
+							<div class="item">
+									<?php get_more_post_by_cat( 91, 4); ?>
+							</div><!-- Item 2 end -->
+						
 						</div><!-- More news carousel end -->
 					</div><!--More news block end -->
 				</div><!-- Content Col end -->

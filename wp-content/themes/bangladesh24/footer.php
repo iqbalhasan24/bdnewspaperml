@@ -159,7 +159,7 @@
 								} 
 					        ?>
 							</div>
-							<p>News247 Worldwide is a popular online newsportal and going source for technical and digital content for its influential audience around the globe. You can reach us via email or phone.</p>
+							<p>bangladesh-24.com Worldwide is a popular online newsportal and going source for technical and digital content for its influential audience around the globe. You can reach us via email or phone.</p>
 							<p class="footer-info-phone"><i class="fa fa-phone"></i> +(785) 238-4131</p>
 							<p class="footer-info-email"><i class="fa fa-envelope-o"></i> editor@news247.com</p>
 							<ul class="unstyled footer-social">
@@ -277,7 +277,7 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-6">
 						<div class="copyright-info">
-							<span>Copyright © 2018 News247 All Rights Reserved. Designed By Tripples</span>
+							<span>Copyright © 2018 bangladesh-24.com All Rights Reserved. Designed By Iqbal Hasan</span>
 						</div>
 					</div>
 
@@ -321,6 +321,23 @@
 	<script type="text/javascript" src="/wp-content/themes/bangladesh24/js/smoothscroll.js"></script>
 	<!-- Template custom -->
 	<script type="text/javascript" src="/wp-content/themes/bangladesh24/js/custom.js"></script>
+	
+	<!-- Script for Modal -->
+		<script>
+	      $(function() {
+	        $(".video").click(function () {
+	          var theModal = $(this).data("target"),
+	          videoSRC = $(this).attr("data-video"),
+	          videoSRCauto = videoSRC + "?autoplay=1&rel=0";
+	          $(theModal + ' iframe').attr('src', videoSRCauto);
+	          $(theModal + ' button.close').click(function () {
+	            $(theModal + ' iframe').attr('src', videoSRC);
+	          });
+	        });
+	      });
+	  </script>
+
+
 	</div><!-- Body inner end -->
 
 <?php wp_footer(); ?>
