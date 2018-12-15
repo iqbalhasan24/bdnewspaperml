@@ -38,75 +38,16 @@
 			<div class="row">
 
 				<div class="col-lg-8 col-md-12">
-					<!-- +++++++++++++++++++++++ -->
+
+				<!-- +++++++++++++++++++++++ -->
 					<div class="latest-news block color-red">
-						<h3 class="block-title"><span>Latest News</span></h3>
-						<div id="latest-news-slide" class="owl-carousel owl-theme latest-news-slide">
-							<div class="item">
-								<ul class="list-post">									
-									<?php get_latest_news_list(3, 1);  ?>
-									<div class="gap-30"></div>
-									<?php get_latest_news_list(7, 1);  ?>								
-								</ul><!-- List post 1 end -->
-							</div><!-- Item 1 end -->
-
-							<div class="item">
-
-								<ul class="list-post">
-									<?php get_latest_news_list(4, 1);  ?>
-									<div class="gap-30"></div>
-									<?php get_latest_news_list(13, 1);  ?>
-								</ul><!-- List post 2 end -->
-								
-							</div><!-- Item 2 end -->
-
-							<div class="item">
-								<ul class="list-post">
-									<?php get_latest_news_list(3, 1);  ?>
-									<div class="gap-30"></div>
-									<?php get_latest_news_list(7, 1);  ?>
-								</ul><!-- List post 3 end -->
-								
-							</div><!-- Item 3 end -->
-
-							<div class="item">
-								<ul class="list-post">
-									<?php get_latest_news_list(4, 1);  ?>
-									<div class="gap-30"></div>
-									<?php get_latest_news_list(13, 1);  ?>
-								</ul><!-- List post 3 end -->
-								
-							</div><!-- Item 4 end -->
-
-
-							<div class="item">
-								<ul class="list-post">
-									<?php get_latest_news_list(3, 1);  ?>
-									<div class="gap-30"></div>
-									<?php get_latest_news_list(7, 1);  ?>
-								</ul><!-- List post 3 end -->
-								
-							</div><!-- Item 5 end -->
-
-
-							<div class="item">
-								<ul class="list-post">
-									<?php get_latest_news_list(4, 1);  ?>
-									<div class="gap-30"></div>
-									<?php get_latest_news_list(13, 1);  ?>
-								</ul><!-- List post 3 end -->
-								
-							</div><!-- Item 6 end -->
-
+						<h3 class="block-title"><span>সারাবাংলা</span></h3>
+						<div id="latest-news-slide-one" class="owl-carousel owl-theme latest-news-slide">
+							<?php get_some_post_form_single_cat(3, 12);  ?>
 							
 						</div><!-- Latest News owl carousel end-->
 					</div><!--- Latest news end -->
 					<!-- +++++++++++++++++++++++ -->
-
-
-
-
-
 					<div class="gap-50"></div>
 
 
@@ -567,6 +508,74 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
+
+					<!-- +++++++++++++++++++++++ -->
+					<div class="latest-news block color-red">
+						<h3 class="block-title"><span>Latest News</span></h3>
+						<div id="latest-news-slide" class="owl-carousel owl-theme latest-news-slide">
+							<div class="item">
+								<ul class="list-post">									
+									<?php get_latest_news_list(3, 1);  ?>
+									<div class="gap-30"></div>
+									<?php get_latest_news_list(7, 1);  ?>								
+								</ul><!-- List post 1 end -->
+							</div><!-- Item 1 end -->
+
+							<div class="item">
+
+								<ul class="list-post">
+									<?php get_latest_news_list(4, 1);  ?>
+									<div class="gap-30"></div>
+									<?php get_latest_news_list(13, 1);  ?>
+								</ul><!-- List post 2 end -->
+								
+							</div><!-- Item 2 end -->
+
+							<div class="item">
+								<ul class="list-post">
+									<?php get_latest_news_list(3, 1);  ?>
+									<div class="gap-30"></div>
+									<?php get_latest_news_list(7, 1);  ?>
+								</ul><!-- List post 3 end -->
+								
+							</div><!-- Item 3 end -->
+
+							<div class="item">
+								<ul class="list-post">
+									<?php get_latest_news_list(4, 1);  ?>
+									<div class="gap-30"></div>
+									<?php get_latest_news_list(13, 1);  ?>
+								</ul><!-- List post 3 end -->
+								
+							</div><!-- Item 4 end -->
+
+
+							<div class="item">
+								<ul class="list-post">
+									<?php get_latest_news_list(3, 1);  ?>
+									<div class="gap-30"></div>
+									<?php get_latest_news_list(7, 1);  ?>
+								</ul><!-- List post 3 end -->
+								
+							</div><!-- Item 5 end -->
+
+
+							<div class="item">
+								<ul class="list-post">
+									<?php get_latest_news_list(4, 1);  ?>
+									<div class="gap-30"></div>
+									<?php get_latest_news_list(13, 1);  ?>
+								</ul><!-- List post 3 end -->
+								
+							</div><!-- Item 6 end -->
+
+							
+						</div><!-- Latest News owl carousel end-->
+					</div><!--- Latest news end -->
+					<!-- +++++++++++++++++++++++ -->
+
+
+				
 					<div class="more-news block color-default">
 						<h3 class="block-title"><span>অন্যান্য</span></h3>
 						<div id="more-news-slide" class="owl-carousel owl-theme more-news-slide">

@@ -684,6 +684,97 @@ function get_populer_post_by_cat( $post_no){
 
 
 
+/*+++++++++++++++++++++get_top_second_sportligh_post++++++++++++++++++++++++++++++*/
+function get_some_post_form_single_cat($cat_id, $post_no){
+                    $args = array(
+                        'posts_per_page'  => $post_no,
+                        'cat'           => $cat_id,
+                        'orderby'       => 'date',
+                        'order'       => 'DESC'
+                    );
+
+                    $category_link = get_category_link ( $cat_id); 
+                    $cat_name = get_cat_name ( $cat_id); 
+                    //$pfx_date = get_the_date( $format, $post_id );
+                   
+	                            $query = new WP_Query( $args );
+	                            if ( $query->have_posts() ) :
+	                            		$i=0;
+	                                while ( $query->have_posts() ) {
+	                                	
+	                                    	$query->the_post();
+	                                    	$post_thumbnail_url =  get_the_post_thumbnail_url(); 
+	                                    	if($post_thumbnail_url ==""): $post_thumbnail_url = '/wp-content/themes/bangladesh24/images/news/tech/gadget4.jpg'; endif;
+									?>
+
+										<?php if($i==0): ?>											
+											<div class="item">
+													<ul class="list-post">
+										<?php endif;  ?>
+
+
+										<?php if( $i !=0 && $i%2==0  ): ?>
+												</ul><!-- List post 1 end -->
+											</div><!-- Item 1 end -->
+											<div class="item">
+													<ul class="list-post">
+										<?php endif;  ?>
+
+			                   			
+										<li class="clearfix">
+										<div class="post-block-style clearfix">
+											<div class="post-thumb">
+												<a href="<?php the_permalink(); ?>"><img class="img-fluid" src="<?php echo $post_thumbnail_url; ?>" alt="" /></a>
+											</div>
+											<a class="post-cat" href="<?php echo $category_link; ?>"><?php echo $cat_name; ?></a>
+											<div class="post-content">
+									 			<h2 class="post-title title-medium">
+									 				<a href="<?php the_permalink();?>">
+									 					<?php 
+							                                $title=get_the_title();
+							                                $title_7word=wp_trim_words($title,7);
+							                                _e($title_7word);
+						                                ?>						                                	
+						                            </a>
+									 			</h2>
+									 			<div class="post-meta">
+									 				<!-- <span class="post-author"><a href="#">John Doe</a></span>
+									 				<span class="post-date">Feb 19, 2017</span> -->								 				
+									 				<span style="color: #000;">Published: 
+									 					<?php the_time('M, j, Y'); 
+									 					//the_time('M, j, Y | g:i A'); ?>									 					
+									 				</span>
+									 			</div>
+								 			</div>
+										</div>
+									</li>
+
+	                           	<?php 
+	                           	
+	                           	$i++;
+	                           		if( $i == $post_no): 
+	                           	?>	
+										</ul><!-- List post 1 end -->
+									</div><!-- Item 1 end -->										
+								<?php				
+										endif;  
+
+	                           }
+                    	endif;
+                    wp_reset_postdata();
+          
+
+      
+   }/*end function*/
+/*+++++++++++++++++++++End get_top_second_sportligh_post++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+
+
 
 
 
