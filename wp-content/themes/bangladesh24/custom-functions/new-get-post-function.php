@@ -38,7 +38,10 @@ function get_top_first_slider_post($post_formate, $cat_id, $post_no, $div_class,
 								                                ?>
 										 				</a>
 										 			</h2>
-										 			<span class="post-date">March 16, 2017</span>
+										 			<span class="post-date">
+										 				Published: 
+									 						<?php the_time('M, j, Y'); ?>
+										 			</span>
 										 		</div>
 										 	</div><!--/ Featured post end -->							
 										</div><!-- Item 1 end -->
@@ -99,7 +102,11 @@ function get_top_second_sportligh_post($cat_id, $post_no, $post_class){
 						                                ?>
 									 				</a>
 									 			</h2>
-									 			<span class="post-date">February 19, 2017</span>
+									 			<span class="post-date">
+
+									 				Published: 
+									 						<?php the_time('M, j, Y'); ?>
+									 			</span>
 								 			</div><!-- Post content end -->
 										</div><!-- Post Overaly end -->
 
@@ -265,20 +272,17 @@ function get_post_for_tab_content( $cat_id, $post_no){
 												 				<a href="<?php the_permalink(); ?>">
 											 						<?php 
 										                                $title=get_the_title();
-										                                $title_7word=wp_trim_words($title,5).'<br>';
-										                                _e($title_7word);
-									                                ?>	
-
-									                                <?php 
-										                                $content=get_the_content();
-										                                $content_15word=wp_trim_words($content,7);
-										                                _e($content_15word);
+										                                _e($title);
 									                                ?>
 
 												 				</a>
 												 			</h2>
 												 			<div class="post-meta">
-												 				<span class="post-date">Feb 13, 2017</span>
+												 				<span class="post-date">
+
+												 					Published: 
+									 						<?php the_time('M, j, Y'); ?>
+												 				</span>
 												 			</div>
 											 			</div><!-- Post content end -->
 													</div><!-- Post block style end -->
@@ -346,13 +350,7 @@ function get_double_cat_post_for_single_section( $cat_id, $post_no, $cat_po_clas
 									 				<a href="<?php the_permalink(); ?>">
 								 						<?php 
 							                                $title=get_the_title();
-							                                $title_6word=wp_trim_words($title,6);
-							                                _e($title_6word); _e('<br>');
-						                                ?>	
-						                                <?php 
-							                                $content=get_the_content();
-							                                $content_10word=wp_trim_words($content,10);
-							                                _e($content_10word);
+							                                _e($$title);
 						                                ?>
 									 				</a>
 									 			</h2>
@@ -382,19 +380,16 @@ function get_double_cat_post_for_single_section( $cat_id, $post_no, $cat_po_clas
 											 			<h2 class="post-title title-small">
 											 				<a href="<?php the_permalink(); ?>">
 										 						<?php 
-									                                $title=get_the_title();
-									                                $title_6word=wp_trim_words($title,6);
-									                                _e($title_6word); _e('<br>');
-								                                ?>	
-								                                <?php 
-									                                $content=get_the_content();
-									                                $content_8word=wp_trim_words($content,8);
-									                                _e($content_8word);
+									                                $title=get_the_title();             
+									                                _e($title);
 								                                ?>
 											 				</a>
 											 			</h2>
 											 			<div class="post-meta">
-											 				<span class="post-date">Jan 07, 2017</span>
+											 				<span class="post-date">
+											 					Published: 
+									 						<?php the_time('M, j, Y'); ?>	
+											 				</span>
 											 			</div>
 										 			</div><!-- Post content end -->
 												</div><!-- Post block style end -->
@@ -460,18 +455,15 @@ function get_single_cat_post_for_single_col( $cat_id, $post_no, $cat_bg_class ){
 									 				<a href="<?php the_permalink(); ?>">
 								 						<?php 
 							                                $title=get_the_title();
-							                                $title_6word=wp_trim_words($title,6);
-							                                _e($title_6word); _e('<br>');
-						                                ?>	
-						                                <?php 
-							                                $content=get_the_content();
-							                                $content_10word=wp_trim_words($content,10);
-							                                _e($content_10word);
+							                                _e($title); _
 						                                ?>
 									 				</a>
 									 			</h2>
 									 			<div class="post-meta">
-									 				<span class="post-date">Mar 03, 2017</span>
+									 				<span class="post-date">
+									 					Published: 
+									 						<?php the_time('M, j, Y'); ?>
+									 				</span>
 									 			</div>
 								 			</div><!-- Post content end -->
 										</div><!-- Post Overaly Article end -->
@@ -499,17 +491,17 @@ function get_single_cat_post_for_single_col( $cat_id, $post_no, $cat_bg_class ){
 										 						<?php 
 									                                $title=get_the_title();
 									                                $title_6word=wp_trim_words($title,6);
-									                                _e($title_6word); _e('<br>');
+									                                _e($title); _e('<br>');
 								                                ?>	
-								                                <?php 
-									                                $content=get_the_content();
-									                                $content_8word=wp_trim_words($content,8);
-									                                _e($content_8word);
-								                                ?>
+								                                
 											 				</a>
 											 			</h2>
 											 			<div class="post-meta">
-											 				<span class="post-date">Mar 13, 2017</span>
+											 				<span class="post-date">
+											 				Published: 
+									 						<?php the_time('M, j, Y'); ?>
+									 						
+									 					</span>
 											 			</div>
 										 			</div><!-- Post content end -->
 												</div><!-- Post block style end -->
@@ -579,7 +571,10 @@ function get_more_post_by_cat( $cat_id, $post_no){
 									 			</h2>
 									 			<div class="post-meta">
 									 				<span class="post-author"><a href="#">Published:</a></span>
-									 				<span class="post-date">Mar 29, 2017</span>
+									 				<span class="post-date"> 
+									 					<?php the_time('M, j, Y'); ?>
+									 						
+									 					</span>
 									 			</div>
 									 			<p style="text-align: justify;">
 									 				<?php 
@@ -732,8 +727,8 @@ function get_some_post_form_single_cat($cat_id, $post_no){
 									 				<a href="<?php the_permalink();?>">
 									 					<?php 
 							                                $title=get_the_title();
-							                                $title_7word=wp_trim_words($title,7);
-							                                _e($title_7word);
+							                                
+							                                _e($title);
 						                                ?>						                                	
 						                            </a>
 									 			</h2>

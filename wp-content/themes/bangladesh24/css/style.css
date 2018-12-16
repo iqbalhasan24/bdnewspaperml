@@ -31,6 +31,11 @@
 21.   Error page
 	
 */
+@font-face {
+  font-family: Burio;
+  src: url('../fonts/BURIO___.ttf');
+  font-weight: normal;
+}
 
 @import url(../../../../external.html?link=https://fonts.googleapis.com/css?family=Arimo:400,700);
 @import url(../../../../external.html?link=https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
@@ -57,13 +62,14 @@
 body {
    background: #fff;
    color: #333;
+   font-family: Burio;
 }
 
 body,
 p {
-   font-family: 'Open Sans', sans-serif;
+   font-family: Burio;
    line-height: 24px;
-   font-size: 14px;
+   font-size: 16px;
    text-rendering: optimizeLegibility;
 }
 
@@ -74,17 +80,17 @@ h4,
 h5,
 h6 {
    color: #1c1c1c;
-   font-weight: 700;
-   font-family: 'Arimo', sans-serif;
+   font-weight: 650;
+   font-family: Burio;
 }
 
 h1 {
-   font-size: 36px;
+   font-size: 38px;
    line-height: 48px;
 }
 
 h2 {
-   font-size: 28px;
+   font-size: 30px;
    line-height: 36px;
 }
 
@@ -503,7 +509,7 @@ a[href^=tel] {
 /*-- Block title --*/
 
 .block-title {
-   font-size: 14px;
+   font-size: 24px;
    line-height: 100%;
    text-transform: uppercase;
    margin: 0 0 40px;
@@ -566,7 +572,7 @@ a[href^=tel] {
 }
 
 .post-title.title-small {
-   font-size: 14px;
+   font-size: 20px;
    line-height: 20px;
    margin-top: 15px;
    margin-bottom: 5px;

@@ -58,21 +58,21 @@
 						  	<li class="nav-item">
 						  		<a class="nav-link animated fadeIn active" href="#tab_a" data-toggle="tab">
 						  			<span class="tab-head">
-										<span class="tab-text-title"> তথ্যপ্রযুক্তি</span>					
+										<span  style="font-size: 18px;" class="tab-text-title"> তথ্যপ্রযুক্তি</span>					
 									</span>
 						  		</a>
 						  	</li>
 						  	<li class="nav-item">
 							  	<a class="nav-link animated fadeIn" href="#tab_b" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">লাইফস্টাইল</span>					
+										<span style="font-size: 18px;" class="tab-text-title">লাইফস্টাইল</span>					
 									</span>
 							  	</a>
 							</li>
 						 	<li class="nav-item">
 							  	<a class="nav-link animated fadeIn" href="#tab_c" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">আর্ট এন্ড কালচার</span>					
+										<span style="font-size: 18px;" class="tab-text-title">আর্ট এন্ড কালচার</span>					
 									</span>
 							  	</a>
 							</li>
