@@ -33,7 +33,13 @@
 */
 @font-face {
   font-family: Burio;
-  src: url('../fonts/BURIO___.ttf');
+  src: url('../fonts/customfonts/BURIO___.ttf');  
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sagar;
+  src: url('../fonts/customfonts/sagarnormal.ttf');
   font-weight: normal;
 }
 
@@ -62,12 +68,14 @@
 body {
    background: #fff;
    color: #333;
-   font-family: Burio;
+   /*font-family: Burio;*/
+   font-family: Sagar;
 }
 
 body,
 p {
-   font-family: Burio;
+  /* font-family: Burio;*/
+   font-family: Sagar;
    line-height: 24px;
    font-size: 16px;
    text-rendering: optimizeLegibility;
@@ -81,7 +89,8 @@ h5,
 h6 {
    color: #1c1c1c;
    font-weight: 650;
-   font-family: Burio;
+   font-family: Sagar;
+/*   font-family: Burio;*/
 }
 
 h1 {
