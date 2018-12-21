@@ -14,22 +14,40 @@
 									if( !isset($post_thumbnail_url)):
 										$post_thumbnail_url = get_the_post_thumbnail_url();
 									endif;	
+									$p_id= get_the_ID();
+
+									$top_sub_headline 				= get_field('top_sub_headline');
+									$bottom_sub_headline 			= get_field('bottom_sub_headline');
+									$post_custom_thumb 				= get_field('post_custom_thumb');
+									$individual_post_advertisement 	= get_field('individual_post_advertisement');
+													
+
 					?>
 					<div class="single-post">
 						<div class="post-media post-featured-image">
+							<?php if($top_sub_headline !="" ): ?>
+								<h2 class="post-title" style="color: #f00;">
+					 				<?php   _e($top_sub_headline); ?>
+					 			</h2>
+							<?php endif; ?>
 							<img src="<?php echo $post_thumbnail_url; ?>" class="img-fluid" alt="">
 						</div>
 						
 						<div class="post-title-area">
-							<a class="post-cat" href="#">Food</a>
+							
 							<h2 class="post-title">
-				 				Tacos ditched the naked chicken chalupa, so here's how to make your own
+				 				<?php echo get_the_title(); ?>
 				 			</h2>
+				 			<?php if($bottom_sub_headline !="" ): ?>
+								<span class="post-title" style="color: #BD752B; font-size: 1.3em; font-weight: 650;">
+					 				<?php   _e($bottom_sub_headline); ?>
+					 			</span>
+							<?php endif; ?>
 				 			<div class="post-meta">
 								<span class="post-author">
-									By <a href="#">John Doe</a>
+									 <a href="#">প্রকাশিত:</a>
 								</span>
-								<span class="post-date"><i class="fa fa-clock-o"></i> March 14, 2017</span>
+								<span class="post-date"><i class="fa fa-clock-o"></i><?php echo get_the_date(); ?></span>
 								<span class="post-hits"><i class="fa fa-eye"></i> 21</span>
 								<span class="post-comment"><i class="fa fa-comments-o"></i>
 								<a href="#" class="comments-link"><span>01</span></a></span>
@@ -38,27 +56,7 @@
 
 						<div class="post-content-area">
 							<div class="entry-content">
-								<p> <span class="dropcap">T</span> ityful a rethoric question ran over her cheek When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-
-
-								<blockquote>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone and feel the charm of existence.</blockquote>
-
-								<p>Lo-fi cred gastropub, brunch aliquip stumptown culpa. Banh mi eiusmod tattooed, freegan Schlitz master cleanse pug. Eu 8-bit id PBR Pinterest taxidermy, swag church-key Echo Park commodo yr. Adipisicing leggings enim laboris wayfarers, cliche Carles placeat typewriter mixtape cold-pressed. Etsy Pitchfork Austin, selvage beard reprehenderit ea ugh.</p>
-
-								
-								<h3>When, while the lovely valley teems with vapour around me, and the meridian sun strikes.</h3>
-
-								<p><img class="pull-left" src="/wp-content/themes/bangladesh24/images/news/news-details/news-details2.jpg" class="img-fluid" alt=""></p>
-								<p>Pitchfork kitsch plaid forage aliquip, sustainable taxidermy deserunt health goth stumptown cred VHS butcher. Mixtape fap Intelligentsia small batch placeat labore, bitters swag chia Echo Park. Four loko aliquip id, delectus beard Bushwick bespoke Blue Bottle eu keytar veniam ethical High Life pour-over.</p>
-								<p>Art party photo booth deserunt exercitation plaid squid. Minim Austin 3 wolf moon scenester aesthetic, umami odio pariatur bitters. Pop-up occaecat taxidermy street art, tattooed beard literally duis photo booth Thundercats shabby chic. Pop-up occaecat taxidermy street art, tattooed beard literally duis photo booth Thundercats shabby Velit non seitan, tilde art party minim Thundercats viral.  Farm-to-table selfies labore, leggings cupidatat sunt taxidermy umami fanny pack typewriter hoodie art party voluptate cardigan banjo. Listicle paleo, drinking vinegar sint direct trade vegan 3 wolf moon.</p>
-								<h3>Farm-to-table selfies labore leggings:</h3>
-								<ul>
-								<li>Plaid fashion axe semiotics skateboard</li>
-								<li>Mixtape fap Intelligentsia small batch placeat labore</li>
-								<li>Gleams steal into the inner sanctuary grow</li>
-								<li>Like these sweet mornings of spring which</li>
-								</ul>
-								<p>High Life tempor retro Truffaut. Tofu mixtape twee, assumenda quinoa flexitarian aesthetic artisan vinyl pug. Chambray et Carles Thundercats cardigan actually, magna bicycle rights. Plaid fashion axe semiotics skateboard, try-hard food truck aesthetic biodiesel exercitation. Accusamus VHS Wes Anderson Banksy food truck vero.</p>
+								<?php _e(get_the_content()); ?>
 
 							</div><!-- Entery content end -->
 

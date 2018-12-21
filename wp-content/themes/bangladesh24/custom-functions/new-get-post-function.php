@@ -19,7 +19,13 @@ function get_top_first_slider_post($post_formate, $cat_id, $post_no, $div_class,
 	                            if ( $query->have_posts() ) :
 	                                while ( $query->have_posts() ) {
 	                                    $query->the_post();
-	                                    $i++;                                   
+	                                    $i++;  
+
+	                                    $top_sub_headline 				= get_field('top_sub_headline');
+										$bottom_sub_headline 			= get_field('bottom_sub_headline');
+										$post_custom_thumb 				= get_field('post_custom_thumb');
+										$individual_post_advertisement 	= get_field('individual_post_advertisement');
+													                              
 
 	                                    	$bg_post_thumbnail_url = 'background-image:url('. get_the_post_thumbnail_url().')'; 
 			                   			?>	
@@ -31,11 +37,18 @@ function get_top_first_slider_post($post_formate, $cat_id, $post_no, $div_class,
 										 			<a class="post-cat" href="<?php echo $category_link; ?>"><?php echo $cat_name; ?></a>
 										 			<h2 class="post-title title-extra-large">
 										 				<a href="<?php the_permalink();?>">
+										 						<?php if($top_sub_headline !="" ): ?>
+																	<h2 class="post-title" style="color: #f00;">
+														 				<?php   _e($top_sub_headline); ?>
+														 			</h2>
+																<?php endif; ?>
+
 										 						<?php 
 									                                $title=get_the_title();
 									                                $title_10word=wp_trim_words($title,10);
 									                                _e($title_10word);
 								                                ?>
+
 										 				</a>
 										 			</h2>
 										 			<span class="post-date">
