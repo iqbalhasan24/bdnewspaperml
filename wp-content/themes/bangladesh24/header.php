@@ -48,6 +48,14 @@
 	<!-- Colorbox -->
 	<link rel="stylesheet" href="/wp-content/themes/bangladesh24/css/colorbox.css">
 
+	<?php
+		$top_sub_headline 				= get_field('top_sub_headline');
+		$bottom_sub_headline 			= get_field('bottom_sub_headline');
+		$post_custom_thumb 				= get_field('post_custom_thumb');
+		$individual_post_advertisement 	= get_field('individual_post_advertisement');
+
+	?>
+
 	
 
 <?php wp_head(); ?>

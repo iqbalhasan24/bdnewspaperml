@@ -2673,6 +2673,7 @@ ul.navbar-nav>li.mega-dropdown {
 .post-navigation {
    display: inline-block;
    margin: 0 0 40px;
+   width: 100%;
 }
 
 .post-navigation span:hover,

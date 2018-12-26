@@ -19,8 +19,7 @@
 									$top_sub_headline 				= get_field('top_sub_headline');
 									$bottom_sub_headline 			= get_field('bottom_sub_headline');
 									$post_custom_thumb 				= get_field('post_custom_thumb');
-									$individual_post_advertisement 	= get_field('individual_post_advertisement');
-													
+									$individual_post_advertisement 	= get_field('individual_post_advertisement');													
 
 					?>
 					<div class="single-post">
@@ -84,41 +83,113 @@
 	   						</div><!-- Share items end -->
 						</div><!-- post-content end -->
 					</div><!-- Single post end -->
-				<?php 	endwhile; endif;	?>
-
-
-
-
-
-
-
 
 					<nav class="post-navigation clearfix">
 	                  <div class="post-previous">
-	                      <a href="#">
-	                          <span><i class="fa fa-angle-left"></i>Previous Post</span>
-	                          <h3>
-	                              Deleting fears from the brain means you might never need to face them
-	                          </h3>
-	                      </a>
+	                  	<?php  previous_post_link( '%link', __( '<span><i class="fa fa-angle-left"></i>Previous Post</span> <h3> %title </h3>' ) ); ?>                    
+	                          
 	                  </div>
-	                  <div class="post-next">
-	                      <a href="#">
-	                          	<span>Next Post <i class="fa fa-angle-right"></i></span>
-	                          <h3>
-	                              Smart packs parking sensor tech and beeps when collisions
-	                          </h3>
-	                      </a>
+	                  <div class="post-next pull-right">
+
+	                  	<?php  next_post_link( '%link', __( '<span>Next Post <i class="fa fa-angle-right"></i></span> <h3> %title </h3>' ) ); ?>
+	                     
+
 	                  </div>       
 	               </nav><!-- Post navigation end -->
+				<?php 	endwhile;  ?>
+
+
+
+			<?php endif; wp_reset_postdata(); 	?>
+
+
+
+
+
+
+
+
+
 
 					
 
 					<div class="related-posts block">
 						<h3 class="block-title"><span>Related Posts</span></h3>
+							<div id="latest-news-slide" class="owl-carousel owl-theme latest-news-slide">
 
-						<div id="latest-news-slide" class="owl-carousel owl-theme latest-news-slide">
-							<div class="item">
+							<?php
+							if (have_posts()) : 
+								while (have_posts()) : the_post();									
+									$p_id= get_the_ID();
+									$category_detail=get_the_category( $p_id);
+									$cat_id_array=[];
+									foreach ($category_detail as $key => $value) {
+										$cat_id_array[]=array_push($cat_id_array, $value->cat_ID); 
+										
+									}
+									$cat_id_array = array_unique($cat_id_array);
+									
+									 $args = array(
+				                        'posts_per_page'  => 20,
+				                        'category__in' => $cat_id_array,
+				                        'orderby'       => 'date',
+				                        'order'       => 'DESC',
+				                    );
+
+
+									 $query = new WP_Query( $args );
+									if ( $query->have_posts() ) :
+									 	$i=0;
+	                                	while ( $query->have_posts() ):
+	                                    	$query->the_post();
+	                                		if($i==0): ?>
+	                                			<div class="item">
+	                                		<?php 		
+	                                    		endif; 
+	                                    		if($i!=0 && $i%4==0 ): 
+	                                		?>
+		                        				</div>
+		                        				<div class="item">
+	                                    	<?php endif;?>
+
+	                                    		<div class="post-block-style clearfix">
+													<div class="post-thumb">
+														<a href="<?php the_permalink(); ?>"><img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" /></a>
+													</div>
+													
+													<div class="post-content">
+											 			<h2 class="post-title title-medium">
+											 				<a href="<?php the_permalink(); ?>">
+											 					<?php the_title(); ?>
+											 				</a>
+											 			</h2>
+											 			<div class="post-meta">
+											 				<span class="post-author"><a href="#">Published</a></span>
+											 				<span class="post-date"><?php the_time('M, j, Y'); ?></span>
+											 			</div>
+										 			</div>
+												</div>
+												<div class="gap-30"></div>
+
+
+	                                <?php   
+	                                    	//the_permalink();
+	                                    	//echo get_the_post_thumbnail_url();
+	                                    	//the_title();
+
+
+	                            		$i++;
+										endwhile;
+										echo "</div>";
+									endif;								
+						endwhile;
+					endif;								
+
+					?>
+
+						
+							<!-- <div class="item">
+
 								<div class="post-block-style clearfix">
 									<div class="post-thumb">
 										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
@@ -132,45 +203,10 @@
 							 				<span class="post-author"><a href="#">John Doe</a></span>
 							 				<span class="post-date">Feb 19, 2017</span>
 							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-
+						 			</div>
+								</div>
 								<div class="gap-30"></div>
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-							</div><!-- Item 1 end -->
-							<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-							<div class="item">
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
 
-								<div class="gap-30"></div>
 								<div class="post-block-style clearfix">
 									<div class="post-thumb">
 										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
@@ -184,125 +220,14 @@
 							 				<span class="post-author"><a href="#">John Doe</a></span>
 							 				<span class="post-date">Feb 19, 2017</span>
 							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-							</div><!-- Item 1 end -->
-							<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-							<div class="item">
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-
-								<div class="gap-30"></div>
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-							</div><!-- Item 1 end -->
-							<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-							<div class="item">
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-
-								<div class="gap-30"></div>
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-							</div><!-- Item 1 end -->
-							<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-							<div class="item">
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-
-								<div class="gap-30"></div>
-								<div class="post-block-style clearfix">
-									<div class="post-thumb">
-										<a href="#"><img class="img-fluid" src="/wp-content/themes/bangladesh24/images/news/lifestyle/travel5.jpg" alt="" /></a>
-									</div>
-									<a class="post-cat" href="#">Health</a>
-									<div class="post-content">
-							 			<h2 class="post-title title-medium">
-							 				<a href="#">Hynopedia helps female travelers find health care in Maldivs</a>
-							 			</h2>
-							 			<div class="post-meta">
-							 				<span class="post-author"><a href="#">John Doe</a></span>
-							 				<span class="post-date">Feb 19, 2017</span>
-							 			</div>
-						 			</div><!-- Post content end -->
-								</div><!-- Post Block style end -->
-							</div><!-- Item 1 end -->
-							<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+						 			</div>
+								</div>
+							</div> -->
+							
 							
 							
 						</div><!-- Carousel end -->
-					</div><!-- Related posts end -->
-
-
-
-
-
-					
+					</div><!-- Related posts end -->					
 
 				</div><!-- Content Col end -->
 

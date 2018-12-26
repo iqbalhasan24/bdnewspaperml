@@ -23,6 +23,14 @@ function get_lead_post_by_cat_with_post_img_and_title($post_formate, $cat_id, $p
 	                                    $i++;
 	                                    if($i==1):
 
+
+	                                 $top_sub_headline 				= get_field('top_sub_headline');
+									$bottom_sub_headline 			= get_field('bottom_sub_headline');
+									$post_custom_thumb 				= get_field('post_custom_thumb');
+									$individual_post_advertisement 	= get_field('individual_post_advertisement');
+
+									var_dump($top_sub_headline);
+
 			                   			?>		                   				
 			                   				
 			                   				<div class='row each-row' style="padding-top:20px; ">
@@ -32,6 +40,12 @@ function get_lead_post_by_cat_with_post_img_and_title($post_formate, $cat_id, $p
 					                                </a>
 		                        				</div>
 		                        				<div class='col-6' style="text-align: justify;">
+
+		                        					<?php if($bottom_sub_headline !="" ): ?>
+														<span class="post-title" style="color: #BD752B; font-size: 1.3em; font-weight: 650;">
+											 				<?php   _e($bottom_sub_headline); ?>
+											 			</span>
+													<?php endif; ?>
 		                        					<a href="<?php the_permalink();?>">
 					                              		<h4 style="color:#ff0000"><?php the_title(); ?></h4>
 					                              	</a>
