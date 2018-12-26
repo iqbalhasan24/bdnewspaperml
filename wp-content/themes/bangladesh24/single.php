@@ -130,7 +130,7 @@
 									$cat_id_array = array_unique($cat_id_array);
 									
 									 $args = array(
-				                        'posts_per_page'  => 20,
+				                        'posts_per_page'  => 15,
 				                        'category__in' => $cat_id_array,
 				                        'orderby'       => 'date',
 				                        'order'       => 'DESC',
@@ -146,7 +146,7 @@
 	                                			<div class="item">
 	                                		<?php 		
 	                                    		endif; 
-	                                    		if($i!=0 && $i%4==0 ): 
+	                                    		if($i!=0 && $i%3==0 ): 
 	                                		?>
 		                        				</div>
 		                        				<div class="item">
